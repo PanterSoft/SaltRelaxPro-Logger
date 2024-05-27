@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 User=nicomattes
-ExecStart=/home/nicomattes/archiconda3/bin/python3 -u /home/nicomattes/Dokumente/Pool/dataGraber.py
+ExecStart=/home/nicomattes/archiconda3/bin/python3 -u /home/nicomattes/Dokumente/SaltRelaxPro-Logger/dataGraber.py
 Restart=on-failure
 Type=simple
 

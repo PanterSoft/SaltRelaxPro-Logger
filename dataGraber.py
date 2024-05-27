@@ -41,7 +41,7 @@ def fetch_data():
         return None
 
 # File path variable
-csv_path = "/home/nicomattes/Dokumente/Pool/Data"
+csv_path = "/home/nicomattes/Dokumente/SaltRelaxPro-Logger/Data"
 
 # Track previous data and timestamp
 previous_data = None
