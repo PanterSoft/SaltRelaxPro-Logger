@@ -1,0 +1,12 @@
+[Unit]
+Description=Salt Relax Pro Logger
+After=network.target
+
+[Service]
+User=nicomattes
+ExecStart=/home/nicomattes/archiconda3/bin/python3 -u /home/nicomattes/Dokumente/Pool/dataGraber.py
+Restart=on-failure
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
